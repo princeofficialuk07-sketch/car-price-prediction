@@ -63,7 +63,7 @@ transmission = st.sidebar.selectbox('Transmission', ['Manual', 'Automatic'])
 owner = st.sidebar.selectbox('Number of Previous Owners', [0, 1, 2, 3])
 
 # Calculate car age
-current_year = 2024
+current_year = 2026
 car_age = current_year - year
 
 # Predict button
